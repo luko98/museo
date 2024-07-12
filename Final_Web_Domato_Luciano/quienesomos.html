@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>¿Quiénes somos?</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="fotos/museo-louvre.png">
+  <link rel="stylesheet" href="estilos.css">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;300;400;500;700&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Archivo', sans-serif;
+      background-color: #484b4e; /* Color de fondo general */
+      color: white;
+    }
+    header {
+      background-color: #343a40; /* Fondo de la barra de navegación */
+    }
+    .navbar-brand img {
+      width: 80px; /* Tamaño del logo */
+    }
+    .navbar-nav .nav-link {
+      color: #ffffff !important; /* Color de texto del menú */
+      font-size: 18px; /* Tamaño de texto del menú */
+    }
+    .navbar-nav .nav-link:hover {
+      color: #ffffff !important; /* Color de texto del menú al pasar el mouse */
+    }
+    .container {
+      margin-top: 20px; /* Espacio superior */
+    }
+    .text-container {
+      text-align: center;
+      margin-top: 20px; /* Espacio superior para el contenido */
+    }
+    .photo-square {
+      width: 100%;
+      padding-top: 100%; /* Relación de aspecto 1:1 */
+      position: relative;
+      background-size: cover;
+      background-position: center;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="fotos/LOUVRELOGO.png" alt="logo_museo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="quienesomos.html">Quiénes somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galeria.html">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="visita.html">Visita</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container mt-4">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="text-container">
+          <img src="fotos/foto.jpg" alt="lucho" class="img-fluid rounded-circle mb-4" style="max-width: 50%;">
+          <p>MI NOMBRE ES LUCIANO DOMATO, SOY ALUMNO DE DISEÑO GRÁFICO DE LA ESCUELA DAVINCI. LO QUE QUEREMOS DESTACAR DE ESTE MUSEO, ES QUE ES MUY LINDO PARA IR A VISITAR. ES UNA EXPERIENCIA ÚNICA QUE NO TE LA VAS A OLVIDAR JAMÁS. YO TE LA RECOMIENDO AL 100%. ESPERO QUE VENGAS A VISITARLA PRONTO...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
